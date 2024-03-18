@@ -13,6 +13,7 @@
 		A83896732BA8AC6A00466221 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A83896722BA8AC6A00466221 /* Base */; };
 		A83896752BA8AC6B00466221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83896742BA8AC6B00466221 /* Assets.xcassets */; };
 		A83896782BA8AC6B00466221 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A83896772BA8AC6B00466221 /* Base */; };
+		A83896802BA8AD3E00466221 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A838967F2BA8AD3E00466221 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A83896742BA8AC6B00466221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83896772BA8AC6B00466221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A83896792BA8AC6B00466221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A838967F2BA8AD3E00466221 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				A838966B2BA8AC6A00466221 /* AppDelegate.swift */,
 				A838966D2BA8AC6A00466221 /* SceneDelegate.swift */,
 				A838966F2BA8AC6A00466221 /* ViewController.swift */,
+				A838967F2BA8AD3E00466221 /* Models.swift */,
 				A83896712BA8AC6A00466221 /* Main.storyboard */,
 				A83896742BA8AC6B00466221 /* Assets.xcassets */,
 				A83896762BA8AC6B00466221 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				A83896702BA8AC6A00466221 /* ViewController.swift in Sources */,
 				A838966C2BA8AC6A00466221 /* AppDelegate.swift in Sources */,
 				A838966E2BA8AC6A00466221 /* SceneDelegate.swift in Sources */,
+				A83896802BA8AD3E00466221 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
