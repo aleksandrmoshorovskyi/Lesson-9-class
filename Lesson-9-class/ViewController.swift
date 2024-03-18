@@ -36,6 +36,17 @@ class ViewController: UIViewController {
         print("\(myClassB.doAnotherAction())")
     }
     
+    @IBAction func doSomething4(_ sender: Any) {
+        
+        let myClassA = MyClassA()
+        let myClassB = MyClassB()
+        
+        let array: [MyBaseClass] = [myClassA, myClassB]
+        array.forEach { $0.doSomething() }
+        
+        print("result")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
