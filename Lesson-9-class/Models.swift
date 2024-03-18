@@ -69,3 +69,7 @@ class MyClassB: MyClassA {
         return result
     }
 }
+
+class myClassC: MyBaseClass {
+    
+}
